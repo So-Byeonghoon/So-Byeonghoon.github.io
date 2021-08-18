@@ -84,7 +84,6 @@ article > header > span + span {
 }
 
 article > header > span + span::before {
-    content: '@';
     margin-right: 4px;
 }
 
@@ -110,11 +109,26 @@ article > header address + time::before {
     margin-right: 6px;
 }
 
+article > header time::before {
+    content: '—';
+    margin-right: 6px;
+}
+
+article > p time::before {
+    content: '—';
+    margin-right: 6px;
+}
+
+
 em {
     font-style: normal;
     font-weight: bold;
     color: rgb(100, 100, 100);
     /*margin-right: 6px;*/
+}
+
+proceedings {
+    font-style: italic;
 }
 
 @media print {
