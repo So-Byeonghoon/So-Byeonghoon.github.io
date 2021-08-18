@@ -1,3 +1,5 @@
+# Thanks to Vitae, a Jekyll Template
+
 # Vitae
 
 [![Build Status](https://github.com/jekyllt/vitae/actions/workflows/jekyll_build.yml/badge.svg)](https://github.com/jekyllt/vitae/actions/workflows/jekyll_build.yml)
